@@ -1,0 +1,88 @@
+/* Section-1 */
+
+.section-1{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,1);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.translucid-div{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    opacity: .2;
+    z-index: 10;
+}
+
+.background-topo-home{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+/* Tarjas */
+
+.tarjas{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 5;
+}
+
+.tarja-superior-home{
+    height: 12vh;
+    width: 100vw;
+}
+
+.titulo-tarja-superior{
+    width: 42vh;
+    position: absolute;
+    top: 0;
+}
+
+.tarja-media-home{
+    height: 4vh;
+    width: 100vw;
+    margin-top: .2vh;
+}
+
+.tarja-inferior-home{
+    height: 12vh;
+    width: 100vw;
+    position: absolute;
+    top: 78vh;
+    left: 0;
+}
+
+.titulo-tarja-inferior{
+    width: 100vh;
+    position: absolute;
+    top: 79vh;
+}
+
+.titulo-tarja-rodape{
+    width: 170vh;
+    position: absolute;
+    top: 90vh;
+}
+
+
+/* Inside Content */
+
+.inside-content{
+    
+}
+
+.old-school-logo{
+    position: absolute;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    opacity: .8;
+    z-index: 1;
+}

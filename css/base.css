@@ -1,0 +1,92 @@
+/* GERAL */
+
+html{
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+
+body{
+    font-size: 90%;
+    line-height: 0;
+    position: relative;
+    font-family: "arial", "sans-serif";
+    overflow: hidden;
+}
+
+body:focus{
+    outline: none;
+}
+
+body a{
+    -webkit-tap-highlight-color: transparent;
+    -khtml-tap-highlight-color: transparent;
+    -moz-tap-highlight-color: transparent;
+    -ms-tap-highlight-color: transparent;
+}
+
+body img{
+    -webkit-tap-highlight-color: transparent;
+    -khtml-tap-highlight-color: transparent;
+    -moz-tap-highlight-color: transparent;
+    -ms-tap-highlight-color: transparent;
+}
+
+body input{
+    -webkit-tap-highlight-color: transparent;
+    -khtml-tap-highlight-color: transparent;
+    -moz-tap-highlight-color: transparent;
+    -ms-tap-highlight-color: transparent;
+}
+
+body input:focus{
+    outline: none;
+}
+
+body .menu{
+    -webkit-tap-highlight-color: transparent;
+    -khtml-tap-highlight-color: transparent;
+    -moz-tap-highlight-color: transparent;
+    -ms-tap-highlight-color: transparent;
+}
+
+.container{
+    max-width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.container-inner{
+    margin: auto;
+    position: relative;
+}
+
+
+/* FONTES*/
+
+@font-face {
+    font-family: "SF Automaton";
+    font-style: normal;
+    font-weight: normal;
+    src: url("/fontes/SF Automaton.ttf");
+}
+
+@font-face {
+    font-family: "SF Automaton Bold";
+    font-style: normal;
+    font-weight: normal;
+    src: url("/fontes/SF Automaton Bold.ttf");
+}
+
+@font-face {
+    font-family: "SF Automaton Condensed";
+    font-style: normal;
+    font-weight: normal;
+    src: url("/fontes/SF Automaton Condensed.ttf");
+}
+
+@font-face {
+    font-family: "impact";
+    font-style: normal;
+    font-weight: normal;
+    src: url("/fontes/Impact.ttf");
+}
